@@ -1,13 +1,11 @@
 
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-
-
-def array_adder(a)
-  a << "new thing at the end of the array"
+def move(board, index, value = "X")
+  def update_array_at_with(array, index, value)
+    array[index] += value
+  end
 end
 
-z = [1, 'hi', "Byron"]
-puts "Before call #{z}"
-array_adder(z)
-puts "After call #{z}: Holy moly, *changed*!"
+move(board, 2)
