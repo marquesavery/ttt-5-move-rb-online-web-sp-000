@@ -17,4 +17,4 @@ def move(board, index, value = "X")
 end
 
 #move(board, 2)
-display_board(move(board, 2))
+display_board(board)
