@@ -1,5 +1,5 @@
 
 
 def number_adder(n)
-  n +10 10
+  n += 10
 end
