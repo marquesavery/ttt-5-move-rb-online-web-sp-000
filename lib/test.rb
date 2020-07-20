@@ -5,3 +5,5 @@ def number_adder(n)
 end
 
 number_adder(10)
+
+puts "#{x}"
