@@ -18,4 +18,4 @@ end
 
 #move(board, 2)
 move(board,0)
-display_board(move(board,0))
+display_board(move())
