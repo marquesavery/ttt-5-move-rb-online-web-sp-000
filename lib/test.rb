@@ -4,6 +4,7 @@ def number_adder(n)
   n += 10
 end
 
-number_adder(10)
+x = 10
+number_adder(x)
 
 puts "#{x}"
